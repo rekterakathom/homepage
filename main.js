@@ -1,8 +1,8 @@
 import './style.css'
 
-import * as THREE from 'three';
-import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls';
-import { mergeBufferGeometries } from 'three/addons/utils/BufferGeometryUtils.js';
+import * as THREE from 'node_modules/three';
+import { OrbitControls } from 'node_modules/three/examples/jsm/controls/OrbitControls';
+import { mergeBufferGeometries } from 'node_modules/three/addons/utils/BufferGeometryUtils.js';
 
 const scene = new THREE.Scene();
 scene.fog = new THREE.FogExp2 ( 0xcccccc, 0.01 );
